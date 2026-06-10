@@ -1,0 +1,5 @@
+{
+  "Source": "aws.trustedadvisor",
+  "DetailType": "Trusted Advisor Check Item Refresh Notification",
+  "Detail": "{\"check-name\":\"Low Utilization Amazon EC2 Instances\",\"check-category\":\"cost_optimizing\",\"status\":\"WARN\",\"resource_id\":\"i-0abcdef1234567890\",\"resource_region\":\"us-east-1\",\"uuid\":\"ta-test-0001\"}"
+}

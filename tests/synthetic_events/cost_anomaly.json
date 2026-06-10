@@ -1,0 +1,5 @@
+{
+  "Source": "aws.ce",
+  "DetailType": "Anomaly Detected",
+  "Detail": "{\"accountId\":\"123456789012\",\"accountName\":\"ExampleAccount\",\"anomalyId\":\"a-test-0001\",\"anomalyScore\":{\"currentScore\":0.92,\"maxScore\":0.92},\"anomalyStartDate\":\"2026-05-01\",\"anomalyEndDate\":\"2026-05-03\",\"dimensionValue\":\"Amazon RDS\",\"impact\":{\"totalImpact\":1001.0,\"totalActualSpend\":1301.0,\"totalExpectedSpend\":300.0,\"totalImpactPercentage\":333.67,\"maxImpact\":1001.0},\"rootCauses\":[{\"linkedAccount\":\"123456789012\",\"linkedAccountName\":\"ExampleAccount\",\"region\":\"us-east-1\",\"service\":\"Amazon RDS\",\"usageType\":\"RDS:GP3-Storage\",\"impact\":{\"contribution\":1001.0}}],\"monitorArn\":\"arn:aws:ce::0:anomalymonitor/test\",\"monitorName\":\"central-tag-monitor\",\"anomalyDetailsLink\":\"https://console.aws.amazon.com/cost-management/home#/anomalies\"}"
+}

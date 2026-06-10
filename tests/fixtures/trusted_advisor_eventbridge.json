@@ -1,0 +1,29 @@
+{
+  "version": "0",
+  "id": "7bf73129-1428-4cd3-a780-95db273d1602",
+  "detail-type": "Trusted Advisor Check Item Refresh Notification",
+  "source": "aws.trustedadvisor",
+  "account": "123456789012",
+  "time": "2026-05-04T18:43:48Z",
+  "region": "us-east-1",
+  "resources": [],
+  "detail": {
+    "check-name": "Low Utilization Amazon EC2 Instances",
+    "check-item-detail": {
+      "Region": "us-east-1",
+      "Instance ID": "i-0abcdef1234567890",
+      "Instance Name": "prod-web-07",
+      "Instance Type": "m5.4xlarge",
+      "Estimated Monthly Savings": "$245.28",
+      "Day 1": "0.5%",
+      "Day 2": "0.7%",
+      "Day 3": "0.4%",
+      "14-Day Average CPU Utilization": "0.6%",
+      "14-Day Average Network I/O": "1.2 MB",
+      "Status": "Warning"
+    },
+    "status": "WARN",
+    "resource_id": "i-0abcdef1234567890",
+    "uuid": "abcd1234-ef56-7890-ab12-cd34ef567890"
+  }
+}

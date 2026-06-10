@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+# TF-2: .terraform.lock.hcl is intentionally NOT ignored — the provider
+# dependency lock file MUST be committed so provider versions/checksums are
+# reproducible and pinned in source control (THREAT_MODEL T-20 supply-chain
+# mitigation). See https://developer.hashicorp.com/terraform/language/files/dependency-lock
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+.build/
+crash.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+
+# Local
+*.log

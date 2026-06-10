@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-1:123456789012:budgets-alerts-topic:99998888-7777-6666-5555-444433332222",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "dddd4444-eeee-5555-ffff-666677778888",
+        "TopicArn": "arn:aws:sns:us-east-1:123456789012:budgets-alerts-topic",
+        "Subject": "AWS Budgets: example-prod-monthly has exceeded your alert threshold",
+        "Message": "AWS Budget Notification May 04, 2026\nAWS Account 123456789012\n\nDear AWS Customer,\n\nYou requested that we alert you when the ACTUAL Cost associated with your example-prod-monthly budget is greater than $40,000.00 for the current month. The ACTUAL Cost associated with this budget is $42,500.00.\n\nBudget Name: example-prod-monthly\nBudget Type: Cost\nBudgeted Amount: $40,000.00\nAlert Type: ACTUAL\nAlert Threshold: > $40,000.00\nACTUAL Amount: $42,500.00\n",
+        "Timestamp": "2026-05-04T06:30:00.000Z",
+        "SignatureVersion": "1",
+        "Signature": "EXAMPLEsignature==",
+        "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-EXAMPLE.pem",
+        "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:123456789012:budgets-alerts-topic:99998888-7777-6666-5555-444433332222",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+}

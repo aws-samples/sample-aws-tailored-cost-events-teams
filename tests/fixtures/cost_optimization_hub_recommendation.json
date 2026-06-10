@@ -1,0 +1,22 @@
+{
+  "recommendationId": "a1b2c3d4-1111-2222-3333-444455556666",
+  "accountId": "123456789012",
+  "region": "us-east-1",
+  "actionType": "Rightsize",
+  "currentResourceType": "Ec2Instance",
+  "recommendedResourceType": "Ec2Instance",
+  "currentResourceSummary": "m5.4xlarge",
+  "recommendedResourceSummary": "m5.xlarge",
+  "resourceId": "arn:aws:ec2:us-east-1:123456789012:instance/i-0abc1234def567890",
+  "resourceArn": "arn:aws:ec2:us-east-1:123456789012:instance/i-0abc1234def567890",
+  "currentMonthlyCost": 1040.0,
+  "estimatedMonthlyCost": 260.0,
+  "estimatedMonthlySavings": 780.0,
+  "estimatedSavingsPercentage": 75.0,
+  "implementationEffort": "Medium",
+  "restartNeeded": true,
+  "rollbackPossible": true,
+  "currencyCode": "USD",
+  "source": "ComputeOptimizer",
+  "lastRefreshTimestamp": "2026-05-04T03:15:00Z"
+}

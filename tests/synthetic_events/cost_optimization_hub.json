@@ -1,0 +1,5 @@
+{
+  "Source": "aws.cost-optimization-hub",
+  "DetailType": "Recommendation Available",
+  "Detail": "{\"recommendationType\":\"Rightsize EC2 instance\",\"resourceId\":\"i-0abc1234def567890\",\"resourceType\":\"Ec2Instance\",\"region\":\"us-east-1\",\"estimatedMonthlySavings\":780.00,\"implementationEffort\":\"Medium\",\"restartNeeded\":true,\"currentResourceDetails\":{\"instanceType\":\"m5.4xlarge\"},\"recommendedResourceDetails\":{\"instanceType\":\"m5.xlarge\"}}"
+}

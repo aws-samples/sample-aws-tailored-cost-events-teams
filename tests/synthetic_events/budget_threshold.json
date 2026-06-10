@@ -1,0 +1,5 @@
+{
+  "Source": "aws.budgets",
+  "DetailType": "Budget Threshold Exceeded",
+  "Detail": "{\"budgetName\":\"example-prod-monthly\",\"actualAmount\":42500.00,\"thresholdAmount\":40000.00,\"budgetType\":\"COST\",\"timeUnit\":\"MONTHLY\"}"
+}
